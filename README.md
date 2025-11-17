@@ -69,7 +69,7 @@ This things must be installed as an extension in your browser.
 
 1. Clone the repo
    ```sh
-   https://github.com/DebjitPramanick/Blockchain-Crowdfunding-App
+   https://github.com/iesharathod/CrowdFunding.git
    ```
 2. Open the project folder
 3. Install NPM Packages
