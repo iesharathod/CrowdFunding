@@ -1,9 +1,9 @@
 <h1 align="center">Crowdfunding Web App</h1>
   <p align="center">
     A basic crowdfunding web app with ethereum blockchain.    <br />
-    <a href="https://github.com/DebjitPramanick/Blockchain-Crowdfunding-App/issues">Report Bug</a>
+    <a href="https://github.com/iesharathod/CrowdFunding.git">Report Bug</a>
     ·
-    <a href="https://github.com/DebjitPramanick/Blockchain-Crowdfunding-App/issues">Request Feature</a>
+
   </p>
 </p>
 
@@ -113,7 +113,7 @@ Here are some examples of how my app works.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/DebjitPramanick/Blockchain-Crowdfunding-App) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/iesharathod/CrowdFunding.git) for a list of proposed features (and known issues).
 
 
 
