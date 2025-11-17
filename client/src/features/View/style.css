@@ -1,0 +1,212 @@
+.main-container{
+    margin: 20px;
+}
+
+.banner-img{
+    height: 360px;
+    width: 100%;
+}
+.tri-div-view{
+    margin-top: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 16px;
+    column-gap: 16px;
+}
+
+.project-card{
+    box-shadow: 2px 2px 5px #dddddd, -2px -2px 5px #dddddd;
+    padding: 12px;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+.project-card .top-tile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-card h3{
+    margin-bottom: 4px;
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: start;
+}
+
+.project-card #deadline{
+    color: #ff8a8a;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 0;
+    text-align: start;
+}
+
+.project-card #raised{
+    color: grey;
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.project-card #raised span{
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    color: #5900ff;
+}
+
+.project-card #raised .ethIcon{
+    width: 14px;
+    margin-bottom: 1px;
+}
+
+.project-card #desc{
+    margin: 12px 0;
+    color: grey;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 16px;
+    height: 32px;
+    text-align: start;
+}
+
+.project-card .funded{
+    width: fit-content;
+    height: 20px;
+    padding: 0 12px;
+    background-color: #ffffff;
+    color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #c0c0c0;
+}
+
+.project-card .ethIcon{
+    width: 16px;
+    margin: 0;
+}
+
+.project-card button{
+    margin-top: 16px;
+}
+
+.fund-options.flex{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.fund-options button{
+    border: 1px solid #5900ff;
+    background: #5900ff;
+    color: #ffffff;
+    width: 20%;
+    padding: 6px;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    flex-basis: 50%;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.fund-options button:hover{
+    background-color: #8747ff;
+}
+
+.funding-bar{
+    display: flex;
+    align-items: center;
+    height: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.funding-bar .cur{
+    background-color: #5900ff;
+    height: 100%;
+    border-right: 2px solid #5900ff;
+    border-radius: 40px 0 0 40px;
+    position: relative;
+}
+
+.funding-bar .others{
+    background-color: #868686;
+    height: 100%;
+    border-right: 2px solid #868686;
+    border-left: 2px solid #868686;
+    position: relative;
+}
+
+.funding-bar .others.myproject{
+    border-radius: 40px 0 0 40px;
+    background-color: #3effb5;
+    border-right: 2px solid #3effb5;
+    border-left: 2px solid #3effb5;
+}
+
+.funding-bar .blank{
+    background-color: #ff9a9a;
+    height: 100%;
+    border-radius: 0 40px 40px 0;
+    position: relative;
+}
+
+.funding-bar .lbl{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    bottom: 20px;
+    white-space: nowrap;
+    border-radius: 2px;
+    box-shadow: 0 0 10px #868686;
+}
+
+.your-funds{
+    font-weight: bold;
+    color: #5900ff;
+    text-align: start;
+    font-size: 14px;
+}
+
+.your-funds .ethIcon{
+    margin-bottom: -2px;
+}
+
+.funding-bar .cur:hover .lbl{
+    display: block;
+}
+
+.funding-bar .others:hover .lbl{
+    display: block;
+}
+
+.funding-bar .blank:hover .lbl{
+    display: block;
+}
+
+.no-message{
+    color: grey;
+}
